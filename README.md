@@ -30,3 +30,16 @@ Check assumptions required to do the task.
 Give successful examples of completing tasks.
 Then ask model to perform the task.
 
+## Principle 2
+
+Give the model time to think
+
+### Tactic 1: Specify the steps to complete a task
+
+```text
+Step 1: ...
+Step 2: ...
+...
+Step N: ...
+```
+
