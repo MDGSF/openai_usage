@@ -33,10 +33,10 @@ prompt = f"""
 Perform the following actions:
 1 - Summarize the following text delimited by triple \
 backticks with 1 sentence.
-2 - Translate the summary into Chinese.
-3 - List each name in the Chinese summary.
+2 - Translate the summary into French.
+3 - List each name in the French summary.
 4 - Output a json object that contains the following \
-keys: chinese_summary, num_names.
+keys: french_summary, num_names.
 
 Separate your answers with line breaks.
 
