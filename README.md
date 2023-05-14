@@ -43,3 +43,9 @@ Step 2: ...
 Step N: ...
 ```
 
+- `openai_demo_05.py`
+- `openai_demo_06.py`
+
+### Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion
+
+
