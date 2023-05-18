@@ -71,4 +71,10 @@ Prompt guidelines:
 - Refine the idea and the prompt
 - Repeat
 
+Iterative Process:
+
+- Try something
+- Analyze where the result does not give what your want
+- Clarify instructions, give more time to think
+- Refine prompts with a batch of examples
 
