@@ -68,11 +68,10 @@ Write a product description based on the information
 provided in the technical specifications delimited by
 triple backticks.
 
-Use at most 50 words.
+Use at most 3 sentences.
 
 Technical specifications: ```{fact_sheet_chair}```
 """
 
 response = get_completion(prompt)
-print (len(response.split(" ")))
 print (response)
