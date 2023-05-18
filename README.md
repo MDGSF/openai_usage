@@ -48,4 +48,17 @@ Step N: ...
 
 ### Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion
 
+- `openai_demo_07.py`
+- `openai_demo_08.py`
+
+## Model Limitations
+
+- Hallucination
+- Makes statements that sound plausible but are not true
+- Reducing hallucinations:
+- First find relevant information,
+- then answer the question
+- based on the relevant information.
+
+- `openai_demo_09.py`
 

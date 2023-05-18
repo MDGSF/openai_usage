@@ -74,7 +74,5 @@ Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
 Actual solution:
 """
 
-# 这个提示词这么写，会出错
-
 response = get_completion(prompt)
 print (response)
