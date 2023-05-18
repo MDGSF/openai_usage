@@ -62,3 +62,13 @@ Step N: ...
 
 - `openai_demo_09.py`
 
+## Iterative Prompt Development
+
+Prompt guidelines:
+
+- Be clear and specific
+- Analyze why result does not give desired output.
+- Refine the idea and the prompt
+- Repeat
+
+
