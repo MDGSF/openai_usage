@@ -97,5 +97,6 @@ Iterative Process:
 - `inferring_04.py`: 提取商品和品牌
 - `inferring_05.py`: 同时提取多个信息
 - `inferring_06.py`: 提取主题词语
+- `inferring_06.py`: 判断文章和给定主题是否相关
 
 

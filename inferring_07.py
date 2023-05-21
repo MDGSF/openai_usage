@@ -46,17 +46,22 @@ address the concerns raised by employees in the survey and
 work towards improving job satisfaction across all department.
 """
 
+topic_list = [
+    "nasa", "local government", "engineering",
+    "employee satisfaction", "federal government"
+]
+
 prompt = f"""
-Determine five topics that are being discussed in the \
-following text, which is delimited by triple backticks.
+Determine whether each item in the following list of \
+topics is a topic in the text below, which
+is delimited with triple backticks.
 
-Make each item one or two words long.
+Give your answer as list with 0 or 1 for each topic. \
 
-Format your response as a list of items separated by commas.
+List of topics: {", ".join(topic_list)}
 
 Text sample: '''{story}'''
 """
 
 response = get_completion(prompt)
 print (response)
-print (response.split(sep=','))
