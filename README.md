@@ -110,4 +110,5 @@ Translating to a different language, and more!
 - `transforming_05.py`: 翻译
 - `transforming_06.py`: 把口语转换为正式表达
 - `transforming_07.py`: 把JSON转换为HTML
+- `transforming_08.py`: 检查语法错误，并修改为正确的
 
