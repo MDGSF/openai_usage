@@ -17,16 +17,12 @@ def get_completion(prompt, model='gpt-3.5-turbo'):
     )
     return response.choices[0].message["content"]
 
-text = f"""
-<grandparent>: The river that carves the deepest \
-valley flows from a modest spring: the \
-grandest symphony originates from a single note; \
-the nost intricate tapestry begins with a solitary thread.
-"""
+
+
 prompt = f"""
-Translate the text delimited by triple backticks \
-into Chinese.
-```{text}```
+Tell me which language this is:
+```Hola, me gustaría ordenar una licuadora.```
 """
+
 response = get_completion(prompt)
 print (response)
