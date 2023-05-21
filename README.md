@@ -91,7 +91,10 @@ Iterative Process:
 
 推理
 
-- `inferring_01.py`: positive or negative
+- `inferring_01.py`: 积极还是消极
+- `inferring_02.py`: 提取情绪
+- `inferring_03.py`: 判断是否生气
+- `inferring_04.py`: 提取商品和品牌
 
 
 
