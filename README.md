@@ -113,4 +113,9 @@ Translating to a different language, and more!
 - `transforming_08.py`: 检查语法错误，并修改为正确的
 - `transforming_09.py`: 检查语法错误，并修改为正确的
 - `transforming_10.py`: 检查语法错误，并修改为正确的
+- `transforming_11.py`: 检查语法错误，并修改为正确的
+
+## Expanding
+
+Expand a shorter text to a longer text (email, essay)
 
