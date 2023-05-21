@@ -43,13 +43,13 @@ Step 2: ...
 Step N: ...
 ```
 
-- `openai_demo_05.py`
-- `openai_demo_06.py`
+- `demo05.py`
+- `demo06.py`
 
 ### Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion
 
-- `openai_demo_07.py`
-- `openai_demo_08.py`
+- `demo07.py`
+- `demo08.py`
 
 ## Model Limitations
 
@@ -60,7 +60,7 @@ Step N: ...
 - then answer the question
 - based on the relevant information.
 
-- `openai_demo_09.py`
+- `demo09.py`
 
 ## Iterative Prompt Development
 
