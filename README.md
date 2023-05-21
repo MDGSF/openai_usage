@@ -112,4 +112,5 @@ Translating to a different language, and more!
 - `transforming_07.py`: 把JSON转换为HTML
 - `transforming_08.py`: 检查语法错误，并修改为正确的
 - `transforming_09.py`: 检查语法错误，并修改为正确的
+- `transforming_10.py`: 检查语法错误，并修改为正确的
 
