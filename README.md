@@ -119,6 +119,8 @@ Translating to a different language, and more!
 
 Expand a shorter text to a longer text (email, essay)
 
+- `expanding_email.py`: 回复客户邮件
+
 ### Temperature
 
 temperature 是一个随机数，
@@ -152,5 +154,10 @@ temperature = 0.7 时，输出可能是：
 **Note:**
 - for tasks that require reliability, predictability，set temperature = 0
 - for tasks that require variety, use temperature higher
+- 当 temperature = 0 时，每次都是相同的输出。
+- 当 temperature = 0.7 时，每次都会得到不同的输出。
+
+## Chatbots
+
 
 
