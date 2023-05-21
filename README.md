@@ -95,6 +95,7 @@ Iterative Process:
 - `inferring_02.py`: 提取情绪
 - `inferring_03.py`: 判断是否生气
 - `inferring_04.py`: 提取商品和品牌
-- `inferring_05.py`:
+- `inferring_05.py`: 同时提取多个信息
+- `inferring_06.py`: 提取主题词语
 
 
