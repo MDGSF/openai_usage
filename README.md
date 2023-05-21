@@ -78,3 +78,15 @@ Iterative Process:
 - Clarify instructions, give more time to think
 - Refine prompts with a batch of examples
 
+## Summarize
+
+- `summarize_01.py`
+- `summarize_02.py`
+- `summarize_03.py`
+- `extract_01.py`
+
+## Inferring
+
+
+
+
