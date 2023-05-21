@@ -106,4 +106,5 @@ Translating to a different language, and more!
 - `transforming_01.py`: 一种语言翻译为另一种语言
 - `transforming_02.py`: 判断给定文本是什么语言
 - `transforming_03.py`: 一种语言翻译为其它多种语言
+- `transforming_04.py`: 翻译为正式和非正式
 
