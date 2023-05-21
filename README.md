@@ -17,18 +17,26 @@ Write clear and specific instructions
 - Angle brackets: < >
 - XML tags: `<tag> </tag>`
 
+- `demo01.py`
+
 ### Tactic 2: Ask for structured output
 
 HTML, JSON
+
+- `demo02.py`
 
 ### Tactic 3: Check whether conditions are satisfied
 
 Check assumptions required to do the task.
 
+- `demo03.py`
+
 ### Tactic 4: Few-shot prompting
 
 Give successful examples of completing tasks.
 Then ask model to perform the task.
+
+- `demo04.py`
 
 ## Principle 2
 
@@ -161,4 +169,7 @@ temperature = 0.7 时，输出可能是：
 
 - `chatbots_01.py`
 - `chatbots_02.py`
+- `chatbots_03.py`
+- `chatbots_04.py`
+- `chatbots_05.py`
 
