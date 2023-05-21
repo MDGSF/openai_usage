@@ -119,3 +119,38 @@ Translating to a different language, and more!
 
 Expand a shorter text to a longer text (email, essay)
 
+### Temperature
+
+temperature 是一个随机数，
+数字越小，表示结果越确定
+数字越大，表示结果越随机
+
+#### example
+
+my favorite food is xxx.
+
+- pizza: 53%
+- sushi: 30%
+- tacos: 5%
+
+temperature = 0 时，输出可能是：
+- my favorite food is pizza
+- my favorite food is pizza
+- my favorite food is pizza
+
+temperature = 0.3 时，输出可能是：
+- my favorite food is pizza
+- my favorite food is sushi
+- my favorite food is pizza
+
+temperature = 0.7 时，输出可能是：
+- my favorite food is tacos
+- my favorite food is sushi
+- my favorite food is pizza
+
+
+**Note:**
+- for tasks that require reliability, predictability，set temperature = 0
+- for tasks that require variety, use temperature higher
+
+
