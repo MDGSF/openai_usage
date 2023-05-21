@@ -80,13 +80,18 @@ Iterative Process:
 
 ## Summarize
 
+总结文本
+
 - `summarize_01.py`
 - `summarize_02.py`
 - `summarize_03.py`
-- `extract_01.py`
+- `extract_01.py`: 提取文本信息
 
 ## Inferring
 
+推理
+
+- `inferring_01.py`: positive or negative
 
 
 
