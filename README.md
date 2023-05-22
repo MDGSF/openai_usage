@@ -144,22 +144,25 @@ my favorite food is xxx.
 - tacos: 5%
 
 temperature = 0 时，输出可能是：
+
 - my favorite food is pizza
 - my favorite food is pizza
 - my favorite food is pizza
 
 temperature = 0.3 时，输出可能是：
+
 - my favorite food is pizza
 - my favorite food is sushi
 - my favorite food is pizza
 
 temperature = 0.7 时，输出可能是：
+
 - my favorite food is tacos
 - my favorite food is sushi
 - my favorite food is pizza
 
-
 **Note:**
+
 - for tasks that require reliability, predictability，set temperature = 0
 - for tasks that require variety, use temperature higher
 - 当 temperature = 0 时，每次都是相同的输出。
@@ -172,4 +175,3 @@ temperature = 0.7 时，输出可能是：
 - `chatbots_03.py`
 - `chatbots_04.py`
 - `chatbots_05.py`
-
