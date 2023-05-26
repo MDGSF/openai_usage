@@ -1,5 +1,27 @@
 #!/usr/bin/env python3
 
+'''
+使用说明：
+1. 需要配置环境变量 OPENAI_API_KEY="xxx"，这个 key 需要从 openai 的后台自己拿，
+  所以你需要一个 openai 的账号才行。
+2. 需要修改下面的代理，修改为你自己本地的代理地址。
+  openai.proxy = {
+    "http": "http://127.0.0.1:1080",
+    "https": "http://127.0.0.1:1080"
+  }
+
+使用方法：
+1. 需要安装 python3
+2. 需要安装如下两个依赖
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple openai
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple python-dotenv
+3. 把该文件放到 PATH 路径下面，并添加可执行权限 chmod a+x gpt.py
+4. 使用方法一：直接在命令行写 prompt
+  gpt.py -m "hello world"
+4. 使用方法二：把 prompt 写到文件中
+  gpt.py -f prompt.txt
+'''
+
 import openai
 import os
 import argparse
